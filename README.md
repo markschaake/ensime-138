@@ -18,7 +18,7 @@ How to test:
   [error] Total time: 5 s, completed Jan 4, 2016 7:48:25 AM
   ```
 
-2. uncomment scalaVersion setting in build.sbt and verify gen-ensime fails:
+2. [uncomment scalaVersion setting in build.sbt](https://github.com/markschaake/ensime-138/blob/master/build.sbt#L11-L12) and verify gen-ensime fails:
   ```
   sbt gen-ensime
   [info] ENSIME update. Please vote for https://github.com/sbt/sbt/issues/2266
